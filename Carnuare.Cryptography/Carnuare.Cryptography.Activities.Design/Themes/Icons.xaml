@@ -1,0 +1,22 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+        <!--DecryptAES256GCM Icon-->
+    <DrawingGroup x:Key="keywordkeysvgrepocomc28809b574db4700a8050eb8beae5d7e_0">
+      <DrawingGroup.ClipGeometry>
+        <RectangleGeometry Rect="0,0,512,512" />
+      </DrawingGroup.ClipGeometry>
+      <DrawingGroup>
+        <DrawingGroup>
+          <GeometryDrawing Brush="#FF000000">
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Figures="M322.893,0L203.969,118.924 261.531,176.486 21.345,416.672 73.983,469.31 116.673,512 172.624,456.049 129.933,413.358 149.947,393.344 192.638,436.035 248.589,380.084 205.898,337.393 314.168,229.123 371.731,286.686 490.654,167.762 322.893,0z M371.73,212.173L278.481,118.923 322.891,74.512 416.141,167.762 371.73,212.173z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingBrush x:Key="DecryptAES256GCMIcon" Drawing="{StaticResource keywordkeysvgrepocomc28809b574db4700a8050eb8beae5d7e_0}" />
+
+
+</ResourceDictionary>

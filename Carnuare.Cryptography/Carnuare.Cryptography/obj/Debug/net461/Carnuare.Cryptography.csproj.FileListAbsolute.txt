@@ -1,0 +1,11 @@
+C:\Users\carnu\OneDrive\Documentos\Development\carnuare-cryptography\Carnuare.Cryptography\Carnuare.Cryptography\Carnuare.Cryptography\bin\Debug\net461\Carnuare.Cryptography.dll
+C:\Users\carnu\OneDrive\Documentos\Development\carnuare-cryptography\Carnuare.Cryptography\Carnuare.Cryptography\Carnuare.Cryptography\bin\Debug\net461\Carnuare.Cryptography.pdb
+C:\Users\carnu\OneDrive\Documentos\Development\carnuare-cryptography\Carnuare.Cryptography\Carnuare.Cryptography\Carnuare.Cryptography\bin\Debug\net461\Carnuare.Cryptography.xml
+C:\Users\carnu\OneDrive\Documentos\Development\carnuare-cryptography\Carnuare.Cryptography\Carnuare.Cryptography\Carnuare.Cryptography\obj\Debug\net461\Carnuare.Cryptography.csprojAssemblyReference.cache
+C:\Users\carnu\OneDrive\Documentos\Development\carnuare-cryptography\Carnuare.Cryptography\Carnuare.Cryptography\Carnuare.Cryptography\obj\Debug\net461\Carnuare.Cryptography.Properties.Resources.resources
+C:\Users\carnu\OneDrive\Documentos\Development\carnuare-cryptography\Carnuare.Cryptography\Carnuare.Cryptography\Carnuare.Cryptography\obj\Debug\net461\Carnuare.Cryptography.csproj.GenerateResource.cache
+C:\Users\carnu\OneDrive\Documentos\Development\carnuare-cryptography\Carnuare.Cryptography\Carnuare.Cryptography\Carnuare.Cryptography\obj\Debug\net461\Carnuare.Cryptography.AssemblyInfoInputs.cache
+C:\Users\carnu\OneDrive\Documentos\Development\carnuare-cryptography\Carnuare.Cryptography\Carnuare.Cryptography\Carnuare.Cryptography\obj\Debug\net461\Carnuare.Cryptography.AssemblyInfo.cs
+C:\Users\carnu\OneDrive\Documentos\Development\carnuare-cryptography\Carnuare.Cryptography\Carnuare.Cryptography\Carnuare.Cryptography\obj\Debug\net461\Carnuare.Cryptography.csproj.CoreCompileInputs.cache
+C:\Users\carnu\OneDrive\Documentos\Development\carnuare-cryptography\Carnuare.Cryptography\Carnuare.Cryptography\Carnuare.Cryptography\obj\Debug\net461\Carnuare.Cryptography.dll
+C:\Users\carnu\OneDrive\Documentos\Development\carnuare-cryptography\Carnuare.Cryptography\Carnuare.Cryptography\Carnuare.Cryptography\obj\Debug\net461\Carnuare.Cryptography.pdb

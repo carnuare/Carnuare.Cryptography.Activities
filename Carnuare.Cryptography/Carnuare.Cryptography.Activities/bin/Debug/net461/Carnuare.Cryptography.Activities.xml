@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Carnuare.Cryptography.Activities</name>
+    </assembly>
+    <members>
+        <member name="P:Carnuare.Cryptography.Activities.DecryptAES256GCM.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="T:Carnuare.Cryptography.Activities.Properties.Resources">
+            <summary>
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.Authentication_Category">
+            <summary>
+              Busca una cadena traducida similar a Authentication.
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.Common_Category">
+            <summary>
+              Busca una cadena traducida similar a Common.
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.ContinueOnError_Description">
+            <summary>
+              Busca una cadena traducida similar a If set, continue executing the remaining activities even if the current activity has failed..
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.ContinueOnError_DisplayName">
+            <summary>
+              Busca una cadena traducida similar a ContinueOnError.
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.DecryptAES256GCM_Decrypted_Description">
+            <summary>
+              Busca una cadena traducida similar a Decrypted text.
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.DecryptAES256GCM_Decrypted_DisplayName">
+            <summary>
+              Busca una cadena traducida similar a Decrypted.
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.DecryptAES256GCM_Description">
+            <summary>
+              Busca una cadena traducida similar a Decrypt a string with aes-256-gcm algorithm.
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.DecryptAES256GCM_DisplayName">
+            <summary>
+              Busca una cadena traducida similar a DecryptAES256GCM.
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.DecryptAES256GCM_Key_Description">
+            <summary>
+              Busca una cadena traducida similar a Key used for encryption.
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.DecryptAES256GCM_Key_DisplayName">
+            <summary>
+              Busca una cadena traducida similar a Key.
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.DecryptAES256GCM_String_Description">
+            <summary>
+              Busca una cadena traducida similar a Text to decrypt.
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.DecryptAES256GCM_String_DisplayName">
+            <summary>
+              Busca una cadena traducida similar a String.
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.Do">
+            <summary>
+              Busca una cadena traducida similar a Do.
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.Input_Category">
+            <summary>
+              Busca una cadena traducida similar a Input.
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.Options_Category">
+            <summary>
+              Busca una cadena traducida similar a Options.
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.Output_Category">
+            <summary>
+              Busca una cadena traducida similar a Output.
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.Timeout_Description">
+            <summary>
+              Busca una cadena traducida similar a Specifies the amount of time (in milliseconds) to wait for the activity to run before an error is thrown. The default value is 60000 (1 minute)..
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.Timeout_DisplayName">
+            <summary>
+              Busca una cadena traducida similar a Timeout (milliseconds).
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.Timeout_Error">
+            <summary>
+              Busca una cadena traducida similar a The activity timed out and was canceled..
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.ValidationExclusiveProperties_Error">
+            <summary>
+              Busca una cadena traducida similar a Please provide a value either for {0} or {1}, but not both..
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.ValidationOverloadGroup_Error">
+            <summary>
+              Busca una cadena traducida similar a Please provide values for both {0} and {1}..
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.ValidationScope_Error">
+            <summary>
+              Busca una cadena traducida similar a Cannot be used outside of a {0}..
+            </summary>
+        </member>
+        <member name="P:Carnuare.Cryptography.Activities.Properties.Resources.ValidationValue_Error">
+            <summary>
+              Busca una cadena traducida similar a Please provide a value for {0}..
+            </summary>
+        </member>
+        <member name="T:UiPath.Shared.Activities.Contracts.IBaseChildActivity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Contracts.IBaseChildActivity.GetFromContext``1(System.Activities.ActivityContext,System.String)">
+            <summary>
+            Gets the services container. This stores the authenticated clients
+            </summary>
+            <param name="context">The context.</param>
+            <param name="propertyName"></param>
+            
+            <returns></returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Contracts.IBaseChildActivity.GetFromUserState``1(System.Activities.AsyncCodeActivityContext)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Contracts.IBaseChildActivity.SetToUserState``1(System.Activities.AsyncCodeActivityContext,``0)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="context"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Contracts.BaseChildActivity.GetFromUserState``1(System.Activities.AsyncCodeActivityContext)">
+            <summary>
+            Get object from context.UserState object. 
+            According to documentation, this is the place to store object for multithreaded access
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Contracts.BaseChildActivity.SetToUserState``1(System.Activities.AsyncCodeActivityContext,``0)">
+            <summary>
+            Set context.UserState to desired value
+            </summary>
+            <typeparam name="U"></typeparam>
+            <param name="context"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Contracts.BaseChildActivity.GetFromContext``1(System.Activities.ActivityContext,System.String)">
+            <summary>
+            Get object from Context properties
+            </summary>
+            <param name="context"></param>
+            <param name="propertyName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:UiPath.Shared.Activities.IObjectContainer">
+            <summary>
+            A simple container for objects meant to be shared accross the application space.
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.IObjectContainer.Add``1(``0)">
+            <summary>
+            Stores a reference to an object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="objectToAdd"></param>
+        </member>
+        <member name="M:UiPath.Shared.Activities.IObjectContainer.Get``1">
+            <summary>
+            Gets the object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.IObjectContainer.Where(System.Func{System.Object,System.Boolean})">
+            <summary>
+            
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.IObjectContainer.Remove``1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:UiPath.Shared.Activities.IObjectContainer.Contains``1">
+            <summary>
+            Determines whether this instance contains the object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns>
+              <c>true</c> if this instance contains object; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.IObjectContainer.Clear">
+            <summary>
+            Clears this instance.
+            </summary>
+        </member>
+        <member name="T:UiPath.Shared.Activities.Utilities.ChildActivityExtensions">
+            <summary>Provides the standard functionality across activities.</summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Utilities.ChildActivityExtensions.GetFromUserState``1(System.Activities.AsyncCodeActivityContext)">
+            <summary>
+            Get object from context.UserState object. 
+            According to documentation, this is the place to store object for multithreaded access
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Utilities.ChildActivityExtensions.SetToUserState``1(System.Activities.AsyncCodeActivityContext,``0)">
+            <summary>
+            Set context.UserState to desired value
+            </summary>
+            <typeparam name="U"></typeparam>
+            <param name="context"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Utilities.ChildActivityExtensions.GetFromContext``1(System.Activities.ActivityContext,System.String)">
+            <summary>
+            Get object from Context properties
+            </summary>
+            <param name="context"></param>
+            <param name="propertyName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:UiPath.Shared.Activities.ObjectContainer">
+            <summary>
+            A simple container for objects meant to be shared accross the application space.
+            </summary>
+        </member>
+        <member name="F:UiPath.Shared.Activities.ObjectContainer._objectHolder">
+            <summary>
+            Gets the object holder.
+            </summary>
+            <value>
+            The object holder.
+            </value>
+        </member>
+        <member name="M:UiPath.Shared.Activities.ObjectContainer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:UiPath.Shared.Activities.ObjectContainer"/> class.
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.ObjectContainer.Add``1(``0)">
+            <summary>
+            Stores a reference to a object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="object"></param>
+        </member>
+        <member name="M:UiPath.Shared.Activities.ObjectContainer.Get``1">
+            <summary>
+            Gets the object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.ObjectContainer.Where(System.Func{System.Object,System.Boolean})">
+            <summary>
+            
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.ObjectContainer.Remove``1">
+            <summary>
+            Remove a object from the container
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:UiPath.Shared.Activities.ObjectContainer.Contains``1">
+            <summary>
+            Determines whether this instance contains the object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns>
+              <c>true</c> if this instance contains object; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.ObjectContainer.Clear">
+            <summary>
+            Clears this instance.
+            </summary>
+        </member>
+    </members>
+</doc>
